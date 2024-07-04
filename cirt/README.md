@@ -34,7 +34,7 @@ Tendo como parametros:
     •    -p: Outros prémios (padrão: 0)
     •    salario base: Salário base (obrigatório)
 ```
-Ex1: python main.py  -d 22 -f 3 -a 1000.00 -t 1000.00 -p 10000.00 300000.00
+Ex1: python main.py  -d 22 -f 0 -a 1000.00 -t 1000.00 -p 0.00 350000.00 
 
 Obs: Caso o usuário não introduzir algum valor nos parametros, o valor será substituido pelo seu padrão com excessão do salario base que é um parametro obrigatório.
 Ex2: python main.py  -a 1100 -t 1100 300000
@@ -44,11 +44,13 @@ As Informações detalhadas serão exibidas da seguinte forma:
 Salário base: xxxx
 
 == Incrementos ==
+
 Sub Alimentação: xx
 Sub Transporte: xx
 Prémios: xx
 
 == Descontos ==
+
 Salário base apos faltas: xx
 Segurança Social: xx
 IRT: xx
@@ -56,19 +58,21 @@ IRT: xx
 Salário Líquido: xx
 
 Ex3:Para os valores introduzidos no Ex1, essa seria a saída:
-Salário base: 300000.00
+Salário base: 350000.00
 
 == Incrementos ==
+
 Sub Alimentação: 22000.00
 Sub Transporte: 22000.00
-Prémios: 10000.00
+Prémios: 0.00
 
 == Descontos ==
-Salário base apos faltas: 259090.91
-Segurança Social: 9392.73
-IRT: 39701.46
 
-Salário Líquido: 263996.72
+Salário base apos faltas: 350000.00
+Segurança Social: 11820.00
+IRT: 56504.01
+
+Salário Líquido: 325675.99
 
 Obs: Os valores serão sempre apresentados com duas casas decimais pela convesão internacional padronizada.
 
