@@ -46,13 +46,17 @@ Salário base: xxxx
 == Incrementos ==
 
 Sub Alimentação: xx
+
 Sub Transporte: xx
+
 Prémios: xx
 
 == Descontos ==
 
 Salário base apos faltas: xx
+
 Segurança Social: xx
+
 IRT: xx
 
 Salário Líquido: xx
@@ -63,13 +67,17 @@ Salário base: 350000.00
 == Incrementos ==
 
 Sub Alimentação: 22000.00
+
 Sub Transporte: 22000.00
+
 Prémios: 0.00
 
 == Descontos ==
 
 Salário base apos faltas: 350000.00
+
 Segurança Social: 11820.00
+
 IRT: 56504.01
 
 Salário Líquido: 325675.99
