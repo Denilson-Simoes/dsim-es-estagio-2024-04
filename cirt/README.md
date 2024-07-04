@@ -39,8 +39,10 @@ Ex1: python main.py  -d 22 -f 0 -a 1000.00 -t 1000.00 -p 0.00 350000.00
 Obs: Caso o usuário não introduzir algum valor nos parametros, o valor será substituido pelo seu padrão com excessão do salario base que é um parametro obrigatório.
 Ex2: python main.py  -a 1100 -t 1100 300000
 
-As Informações detalhadas serão exibidas da seguinte forma:
+
 ```
+As Informações detalhadas serão exibidas da seguinte forma:
+
 Salário base: xxxx
 
 == Incrementos ==
